@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET09_read_write_profiles\bin\x64\Debug\C.NET09_read_write_profiles.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET09_read_write_profiles\bin\x64\Debug\C.NET09_read_write_profiles.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET09_read_write_profiles\obj\x64\Debug\C.NET09_read_write_profiles.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET09_read_write_profiles\obj\x64\Debug\C.NET09_read_write_profiles.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET09_read_write_profiles\obj\x64\Debug\C.NET09_read_write_profiles.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET09_read_write_profiles\obj\x64\Debug\C.NET09_read_write_profiles.pdb

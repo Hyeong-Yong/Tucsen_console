@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET04_prop_list.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET04_prop_list.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET04_prop_list\obj\Debug\C.NET04_prop_list.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET04_prop_list\obj\Debug\C.NET04_prop_list.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET04_prop_list\obj\Debug\C.NET04_prop_list.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET04_prop_list\obj\Debug\C.NET04_prop_list.pdb

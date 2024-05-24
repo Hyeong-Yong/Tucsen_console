@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET12_trigger_output.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET12_trigger_output.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET12_trigger_output\obj\Debug\C.NET12_trigger_output.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET12_trigger_output\obj\Debug\C.NET12_trigger_output.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET12_trigger_output\obj\Debug\C.NET12_trigger_output.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET12_trigger_output\obj\Debug\C.NET12_trigger_output.pdb

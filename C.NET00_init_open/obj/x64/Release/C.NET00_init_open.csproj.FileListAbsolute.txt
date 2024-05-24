@@ -1,0 +1,4 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET00_init_open\bin\x64\Release\C.NET00_init_open.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET00_init_open\obj\x64\Release\C.NET00_init_open.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET00_init_open\obj\x64\Release\C.NET00_init_open.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET00_init_open\obj\x64\Release\C.NET00_init_open.exe

@@ -1,0 +1,8 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET18_gps_trigger\bin\Debug\C.NET18_gps_trigger.exe.config
+C:\Dev\Tucsen\samples code\console\C#\C.NET18_gps_trigger\bin\Debug\C.NET18_gps_trigger.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET18_gps_trigger\bin\Debug\C.NET18_gps_trigger.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET18_gps_trigger\obj\Debug\C.NET18_gps_trigger.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET18_gps_trigger\obj\Debug\C.NET18_gps_trigger.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET18_gps_trigger\obj\Debug\C.NET18_gps_trigger.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET18_gps_trigger\obj\Debug\C.NET18_gps_trigger.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET18_gps_trigger\obj\Debug\C.NET18_gps_trigger.pdb

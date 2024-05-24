@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\C.NET_HY_example.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\C.NET_HY_example.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\C.NET_HY_example.csproj",
+        "projectName": "C.NET_HY_example",
+        "projectPath": "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\C.NET_HY_example.csproj",
+        "packagesPath": "C:\\Users\\hwang\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hwang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\ProEssentials9\\NuGet": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

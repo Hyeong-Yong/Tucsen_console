@@ -1,0 +1,8 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET20_genicam_para_get\bin\Debug\C.NET20_genicam_para_get.exe.config
+C:\Dev\Tucsen\samples code\console\C#\C.NET20_genicam_para_get\bin\Debug\C.NET20_genicam_para_get.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET20_genicam_para_get\bin\Debug\C.NET20_genicam_para_get.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET20_genicam_para_get\obj\Debug\C.NET20_genicam_para_get.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET20_genicam_para_get\obj\Debug\C.NET20_genicam_para_get.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET20_genicam_para_get\obj\Debug\C.NET20_genicam_para_get.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET20_genicam_para_get\obj\Debug\C.NET20_genicam_para_get.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET20_genicam_para_get\obj\Debug\C.NET20_genicam_para_get.pdb

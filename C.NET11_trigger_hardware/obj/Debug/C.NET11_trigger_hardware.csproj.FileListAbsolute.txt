@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET11_trigger_hardware.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET11_trigger_hardware.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET11_trigger_hardware\obj\Debug\C.NET11_trigger_hardware.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET11_trigger_hardware\obj\Debug\C.NET11_trigger_hardware.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET11_trigger_hardware\obj\Debug\C.NET11_trigger_hardware.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET11_trigger_hardware\obj\Debug\C.NET11_trigger_hardware.pdb

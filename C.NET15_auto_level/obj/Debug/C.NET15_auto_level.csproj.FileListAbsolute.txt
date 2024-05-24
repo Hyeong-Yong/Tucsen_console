@@ -1,0 +1,8 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET15_auto_level\bin\Debug\C.NET15_auto_level.exe.config
+C:\Dev\Tucsen\samples code\console\C#\C.NET15_auto_level\bin\Debug\C.NET15_auto_level.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET15_auto_level\bin\Debug\C.NET15_auto_level.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET15_auto_level\obj\Debug\C.NET15_auto_level.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET15_auto_level\obj\Debug\C.NET15_auto_level.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET15_auto_level\obj\Debug\C.NET15_auto_level.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET15_auto_level\obj\Debug\C.NET15_auto_level.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET15_auto_level\obj\Debug\C.NET15_auto_level.pdb

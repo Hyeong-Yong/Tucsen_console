@@ -1,0 +1,8 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\bin\Debug\C.NET19_calllback.exe.config
+C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\bin\Debug\C.NET19_calllback.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\bin\Debug\C.NET19_calllback.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\obj\Debug\C.NET19_calllback.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\obj\Debug\C.NET19_calllback.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\obj\Debug\C.NET19_calllback.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\obj\Debug\C.NET19_calllback.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\obj\Debug\C.NET19_calllback.pdb

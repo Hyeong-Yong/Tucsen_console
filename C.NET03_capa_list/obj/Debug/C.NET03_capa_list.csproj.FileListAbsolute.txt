@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET03_capa_list.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET03_capa_list.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET03_capa_list\obj\Debug\C.NET03_capa_list.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET03_capa_list\obj\Debug\C.NET03_capa_list.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET03_capa_list\obj\Debug\C.NET03_capa_list.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET03_capa_list\obj\Debug\C.NET03_capa_list.pdb

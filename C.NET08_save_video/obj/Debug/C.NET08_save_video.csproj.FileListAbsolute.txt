@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET08_save_video.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET08_save_video.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET08_save_video\obj\Debug\C.NET08_save_video.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET08_save_video\obj\Debug\C.NET08_save_video.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET08_save_video\obj\Debug\C.NET08_save_video.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET08_save_video\obj\Debug\C.NET08_save_video.pdb

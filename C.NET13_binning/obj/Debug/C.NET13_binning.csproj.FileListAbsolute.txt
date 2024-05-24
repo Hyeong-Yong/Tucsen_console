@@ -1,0 +1,8 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET13_binning\bin\Debug\C.NET13_binning.exe.config
+C:\Dev\Tucsen\samples code\console\C#\C.NET13_binning\bin\Debug\C.NET13_binning.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET13_binning\bin\Debug\C.NET13_binning.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET13_binning\obj\Debug\C.NET13_binning.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET13_binning\obj\Debug\C.NET13_binning.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET13_binning\obj\Debug\C.NET13_binning.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET13_binning\obj\Debug\C.NET13_binning.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET13_binning\obj\Debug\C.NET13_binning.pdb

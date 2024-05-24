@@ -1,0 +1,8 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\bin\Debug\C.NET14_histogram.exe.config
+C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\bin\Debug\C.NET14_histogram.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\bin\Debug\C.NET14_histogram.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\obj\Debug\C.NET14_histogram.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\obj\Debug\C.NET14_histogram.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\obj\Debug\C.NET14_histogram.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\obj\Debug\C.NET14_histogram.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\obj\Debug\C.NET14_histogram.pdb

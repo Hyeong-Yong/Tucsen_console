@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET10_trigger_software.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET10_trigger_software.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET10_trigger_software\obj\Debug\C.NET10_trigger_software.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET10_trigger_software\obj\Debug\C.NET10_trigger_software.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET10_trigger_software\obj\Debug\C.NET10_trigger_software.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET10_trigger_software\obj\Debug\C.NET10_trigger_software.pdb

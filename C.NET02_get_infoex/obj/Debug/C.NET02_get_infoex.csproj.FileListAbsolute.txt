@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET02_get_infoex.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET02_get_infoex.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.pdb

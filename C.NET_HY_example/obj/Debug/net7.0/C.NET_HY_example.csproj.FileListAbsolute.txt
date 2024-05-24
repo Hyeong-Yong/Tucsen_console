@@ -1,0 +1,15 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.deps.json
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.runtimeconfig.json
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.dll
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.AssemblyInfoInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.AssemblyInfo.cs
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.dll
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\refint\C.NET_HY_example.dll
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.genruntimeconfig.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\ref\C.NET_HY_example.dll

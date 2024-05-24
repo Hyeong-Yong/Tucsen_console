@@ -1,0 +1,8 @@
+C:\Dev\Tucsen\samples code\console\C#\C.NET17_timestamp\bin\Debug\C.NET17_timestamp.exe.config
+C:\Dev\Tucsen\samples code\console\C#\C.NET17_timestamp\bin\Debug\C.NET17_timestamp.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET17_timestamp\bin\Debug\C.NET17_timestamp.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET17_timestamp\obj\Debug\C.NET17_timestamp.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET17_timestamp\obj\Debug\C.NET17_timestamp.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET17_timestamp\obj\Debug\C.NET17_timestamp.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET17_timestamp\obj\Debug\C.NET17_timestamp.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET17_timestamp\obj\Debug\C.NET17_timestamp.pdb

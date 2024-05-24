@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET05_wait_frame.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET05_wait_frame.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET05_wait_frame\obj\Debug\C.NET05_wait_frame.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET05_wait_frame\obj\Debug\C.NET05_wait_frame.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET05_wait_frame\obj\Debug\C.NET05_wait_frame.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET05_wait_frame\obj\Debug\C.NET05_wait_frame.pdb

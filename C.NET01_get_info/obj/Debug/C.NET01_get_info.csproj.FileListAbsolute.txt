@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET01_get_info.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET01_get_info.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET01_get_info\obj\Debug\C.NET01_get_info.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET01_get_info\obj\Debug\C.NET01_get_info.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET01_get_info\obj\Debug\C.NET01_get_info.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET01_get_info\obj\Debug\C.NET01_get_info.pdb

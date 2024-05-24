@@ -1,0 +1,6 @@
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET06_roi_mode.exe
+C:\Dev\Tucsen\samples code\console\C#\bin\Debug\C.NET06_roi_mode.pdb
+C:\Dev\Tucsen\samples code\console\C#\C.NET06_roi_mode\obj\Debug\C.NET06_roi_mode.csproj.AssemblyReference.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET06_roi_mode\obj\Debug\C.NET06_roi_mode.csproj.CoreCompileInputs.cache
+C:\Dev\Tucsen\samples code\console\C#\C.NET06_roi_mode\obj\Debug\C.NET06_roi_mode.exe
+C:\Dev\Tucsen\samples code\console\C#\C.NET06_roi_mode\obj\Debug\C.NET06_roi_mode.pdb
