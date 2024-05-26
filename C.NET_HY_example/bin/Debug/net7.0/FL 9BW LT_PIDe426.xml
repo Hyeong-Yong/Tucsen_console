@@ -7,11 +7,11 @@
         <GlobalGain>1</GlobalGain>
         <ATExposure>0</ATExposure>
         <FMExposure>0</FMExposure>
-        <LNExposure>830</LNExposure>
+        <LNExposure>3850</LNExposure>
         <BlackLevel>2</BlackLevel>
         <FlatFieldCorrection>0</FlatFieldCorrection>
         <Temperature>500</Temperature>
-        <FanMode>0</FanMode>
+        <FanMode>2</FanMode>
         <TriggerOutput>0</TriggerOutput>
         <ImageModeSelect>1</ImageModeSelect>
         <DefectCorrectionValue>1</DefectCorrectionValue>

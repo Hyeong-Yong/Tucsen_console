@@ -13,3 +13,18 @@ C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\refint\C
 C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.pdb
 C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.genruntimeconfig.cache
 C:\Dev\Tucsen\samples code\console\C#\C.NET_HY_example\obj\Debug\net7.0\ref\C.NET_HY_example.dll
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.exe
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.deps.json
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.runtimeconfig.json
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.dll
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\bin\Debug\net7.0\C.NET_HY_example.pdb
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.AssemblyInfoInputs.cache
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.AssemblyInfo.cs
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.csproj.CoreCompileInputs.cache
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.sourcelink.json
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.dll
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\refint\C.NET_HY_example.dll
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.pdb
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\C.NET_HY_example.genruntimeconfig.cache
+C:\Dev\C#\Tucsen_console\C.NET_HY_example\obj\Debug\net7.0\ref\C.NET_HY_example.dll

@@ -148,21 +148,18 @@ namespace C.NET19_calllback
             }
 
             //Announce Buffer
-            //for (int i = 0; i < m_nCount; i++)
-            //{
-            //    pBuf = Marshal.AllocHGlobal((int)m_frame.usWidth * m_frame.usHeight);
+            for (int i = 0; i < m_nCount; i++) {
+                pBuf = Marshal.AllocHGlobal((int)m_frame.usWidth * m_frame.usHeight);
 
-            //    TUCAMRET announceBufRet = TUCamAPI.TUCAM_Cap_AnnounceBuffer(m_opCam.hIdxTUCam, (uint)m_frame.usWidth * m_frame.usHeight, pBuf);
-            //    if (TUCAMRET.TUCAMRET_SUCCESS == announceBufRet)
-            //    {
-            //        bufList.Add(pBuf);
-            //    }
-            //    else
-            //    {//
-            //        Console.WriteLine("camera announce buffer failure!,index ={0},error code={1:x}", i, announceBufRet);
-            //    }
-            //}
-            //Console.WriteLine("camera announce succ!");
+                TUCAMRET announceBufRet = TUCamAPI.TUCAM_Cap_AnnounceBuffer(m_opCam.hIdxTUCam, (uint)m_frame.usWidth * m_frame.usHeight, pBuf);
+                if (TUCAMRET.TUCAMRET_SUCCESS == announceBufRet) {
+                    bufList.Add(pBuf);
+                }
+                else {//
+                    Console.WriteLine("camera announce buffer failure!,index ={0},error code={1:x}", i, announceBufRet);
+                }
+            }
+            Console.WriteLine("camera announce succ!");
 
 
             //capture start

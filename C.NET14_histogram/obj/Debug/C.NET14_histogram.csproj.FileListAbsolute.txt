@@ -6,3 +6,10 @@ C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\obj\Debug\C.NET14_histog
 C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\obj\Debug\C.NET14_histogram.csproj.CoreCompileInputs.cache
 C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\obj\Debug\C.NET14_histogram.exe
 C:\Dev\Tucsen\samples code\console\C#\C.NET14_histogram\obj\Debug\C.NET14_histogram.pdb
+C:\Dev\C#\Tucsen_console\C.NET14_histogram\bin\Debug\C.NET14_histogram.exe.config
+C:\Dev\C#\Tucsen_console\C.NET14_histogram\bin\Debug\C.NET14_histogram.exe
+C:\Dev\C#\Tucsen_console\C.NET14_histogram\bin\Debug\C.NET14_histogram.pdb
+C:\Dev\C#\Tucsen_console\C.NET14_histogram\obj\Debug\C.NET14_histogram.csproj.AssemblyReference.cache
+C:\Dev\C#\Tucsen_console\C.NET14_histogram\obj\Debug\C.NET14_histogram.csproj.CoreCompileInputs.cache
+C:\Dev\C#\Tucsen_console\C.NET14_histogram\obj\Debug\C.NET14_histogram.exe
+C:\Dev\C#\Tucsen_console\C.NET14_histogram\obj\Debug\C.NET14_histogram.pdb

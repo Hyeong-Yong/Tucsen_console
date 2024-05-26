@@ -5,6 +5,7 @@ using System.Text;
 using System.Runtime.InteropServices;
 using System.IO;
 using TUCAMAPI;
+using System.Threading;
 
 namespace C.NET10_trigger_software
 {
@@ -91,6 +92,7 @@ namespace C.NET10_trigger_software
             {
                 for (int i = 0; i < nTimes; ++i)
                 {
+                    Thread.Sleep(1000);
                     /* Send software trigger signal */
                     lRet = (long)TUCamAPI.TUCAM_Cap_DoSoftwareTrigger(m_opCam.hIdxTUCam);
 

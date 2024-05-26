@@ -1,25 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Runtime.InteropServices;
-using System.IO;
 using TUCAMAPI;
 
-namespace C.NET03_capa_list
-{
-    class Program
-    {
+namespace C.NET03_capa_list {
+    class Program {
         public static TUCAM_INIT m_itApi;       // SDK API initialized object
         public static TUCAM_OPEN m_opCam;       // Open camera object
 
-        public static string[] m_strArrCapa = { "TUIDC_RESOLUTION          : [Resolution]                 ", 
-                                                "TUIDC_PIXELCLOCK          : [Pixel Clock]                ", 
-                                                "TUIDC_BITOFDEPTH          : [Bit Of Depth]               ", 
-                                                "TUIDC_ATEXPOSURE          : [Auto Exposure]              ", 
-                                                "TUIDC_HORIZONTAL          : [Horizontal]                 ", 
-                                                "TUIDC_VERTICAL            : [Vertical]                   ", 
-                                                "TUIDC_ATWBALANCE          : [Auto White Balance]         ", 
+        public static string[] m_strArrCapa = { "TUIDC_RESOLUTION          : [Resolution]                 ",
+                                                "TUIDC_PIXELCLOCK          : [Pixel Clock]                ",
+                                                "TUIDC_BITOFDEPTH          : [Bit Of Depth]               ",
+                                                "TUIDC_ATEXPOSURE          : [Auto Exposure]              ",
+                                                "TUIDC_HORIZONTAL          : [Horizontal]                 ",
+                                                "TUIDC_VERTICAL            : [Vertical]                   ",
+                                                "TUIDC_ATWBALANCE          : [Auto White Balance]         ",
                                                 "TUIDC_FAN_GEAR            : [Fan Gear]                   ",
                                                 "TUIDC_ATLEVELS            : [Auto Levels]                ",
                                                 "TUIDC_SHIFT               : [Shift]                      ",
@@ -90,8 +85,7 @@ namespace C.NET03_capa_list
                                               };
 
         /* Init the TUCAM API */
-        static TUCAMRET InitApi()
-        {
+        static TUCAMRET InitApi() {
             /* Get the current directory */
             IntPtr strPath = Marshal.StringToHGlobalAnsi(System.Environment.CurrentDirectory);
 
@@ -102,8 +96,7 @@ namespace C.NET03_capa_list
 
             Console.WriteLine("Connect {0} camera", m_itApi.uiCamCount);
 
-            if (0 == m_itApi.uiCamCount)
-            {
+            if (0 == m_itApi.uiCamCount) {
                 return TUCAMRET.TUCAMRET_NO_CAMERA;
             }
 
@@ -111,16 +104,13 @@ namespace C.NET03_capa_list
         }
 
         /* UnInit the TUCAM API */
-        static TUCAMRET UnInitApi()
-        {
+        static TUCAMRET UnInitApi() {
             return TUCamAPI.TUCAM_Api_Uninit();
         }
 
         /* Open the camera by index number */
-        static TUCAMRET OpenCamera(uint uiIdx)
-        {
-            if (uiIdx >= m_itApi.uiCamCount)
-            {
+        static TUCAMRET OpenCamera(uint uiIdx) {
+            if (uiIdx >= m_itApi.uiCamCount) {
                 return TUCAMRET.TUCAMRET_OUT_OF_RANGE;
             }
 
@@ -130,10 +120,8 @@ namespace C.NET03_capa_list
         }
 
         /* Close the current camera */
-        static TUCAMRET CloseCamera()
-        {
-            if (null != m_opCam.hIdxTUCam)
-            {
+        static TUCAMRET CloseCamera() {
+            if (null != m_opCam.hIdxTUCam) {
                 TUCamAPI.TUCAM_Dev_Close(m_opCam.hIdxTUCam);
             }
 
@@ -143,8 +131,7 @@ namespace C.NET03_capa_list
         }
 
         /* Print the camera capability list */
-        static void PrintCameraCapabilityList()
-        {
+        static void PrintCameraCapabilityList() {
             int nVal = 0;
 
             List<string> lstCapa = new List<string>(m_strArrCapa);
@@ -160,17 +147,15 @@ namespace C.NET03_capa_list
             valText.nID = 0;
             valText.dbValue = 0;
             valText.nTextSize = 64;
-            valText.pText = Marshal.AllocHGlobal(64); 
+            valText.pText = Marshal.AllocHGlobal(64);
 
             /* Get capability list information */
             Console.WriteLine("Get capability information list");
 
-            for (int i = (int)TUCAM_IDCAPA.TUIDC_RESOLUTION; i < (int)TUCAM_IDCAPA.TUIDC_ENDCAPABILITY; ++i)
-            {
+            for (int i = (int)TUCAM_IDCAPA.TUIDC_RESOLUTION; i < (int)TUCAM_IDCAPA.TUIDC_ENDCAPABILITY; ++i) {
                 capa.idCapa = i;
 
-                if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetAttr(m_opCam.hIdxTUCam, ref capa))
-                {
+                if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetAttr(m_opCam.hIdxTUCam, ref capa)) {
                     Console.WriteLine("0x{0:X2}.{1} Range[{2, 2}, {3, 2}] Default:{4, 2} Step:{5}", i, lstCapa[i].ToString(), capa.nValMin, capa.nValMax, capa.nValDft, capa.nValStep);
 
                     if ((int)TUCAM_IDCAPA.TUIDC_RESOLUTION == i)        /* Resolution */
@@ -178,13 +163,11 @@ namespace C.NET03_capa_list
                         int nCnt = capa.nValMax - capa.nValMin + 1;
 
                         valText.nID = i;
-                       
-                        for (int j = 0; j < nCnt; ++j)
-                        {
+
+                        for (int j = 0; j < nCnt; ++j) {
                             valText.dbValue = j;
                             TUCAMRET n = TUCamAPI.TUCAM_Capa_GetValueText(m_opCam.hIdxTUCam, ref valText);
-                            if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetValueText(m_opCam.hIdxTUCam, ref valText))
-                            {
+                            if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetValueText(m_opCam.hIdxTUCam, ref valText)) {
                                 Console.WriteLine("{0}: {1}", j, Marshal.PtrToStringAnsi(valText.pText));
                             }
                         }
@@ -195,35 +178,30 @@ namespace C.NET03_capa_list
 
                         valText.nID = i;
 
-                        for (int j = 0; j < nCnt; ++j)
-                        {
+                        for (int j = 0; j < nCnt; ++j) {
                             valText.dbValue = j;
                             TUCAMRET n = TUCamAPI.TUCAM_Capa_GetValueText(m_opCam.hIdxTUCam, ref valText);
-                            if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetValueText(m_opCam.hIdxTUCam, ref valText))
-                            {
+                            if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetValueText(m_opCam.hIdxTUCam, ref valText)) {
                                 Console.WriteLine("{0}: {1}", j, Marshal.PtrToStringAnsi(valText.pText));
                             }
                         }
                     }
                 }
-                else
-                {
+                else {
                     Console.WriteLine("0x{0:X2}.{1} Not support", i, lstCapa[i].ToString());
                 }
 
-                Marshal.Release(valText.pText);    
+                Marshal.Release(valText.pText);
             }
 
             Console.WriteLine();
 
             /* Set capability default value */
             Console.WriteLine("Set capability default value");
-            for (int i = (int)TUCAM_IDCAPA.TUIDC_RESOLUTION; i < (int)TUCAM_IDCAPA.TUIDC_ENDCAPABILITY; ++i)
-            {
+            for (int i = (int)TUCAM_IDCAPA.TUIDC_RESOLUTION; i < (int)TUCAM_IDCAPA.TUIDC_ENDCAPABILITY; ++i) {
                 capa.idCapa = i;
 
-                if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetAttr(m_opCam.hIdxTUCam, ref capa))
-                {
+                if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetAttr(m_opCam.hIdxTUCam, ref capa)) {
                     TUCamAPI.TUCAM_Capa_SetValue(m_opCam.hIdxTUCam, i, capa.nValDft);
                     Console.WriteLine("0x{0:X2}.{1} Set default value {2} success", i, lstCapa[i].ToString(), capa.nValDft);
                 }
@@ -233,21 +211,16 @@ namespace C.NET03_capa_list
 
             /* Get capability current value */
             Console.WriteLine("Get capability current value");
-            for (int i = (int)TUCAM_IDCAPA.TUIDC_RESOLUTION; i < (int)TUCAM_IDCAPA.TUIDC_ENDCAPABILITY; ++i)
-            {
-                if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetValue(m_opCam.hIdxTUCam, i, ref nVal))
-                {
+            for (int i = (int)TUCAM_IDCAPA.TUIDC_RESOLUTION; i < (int)TUCAM_IDCAPA.TUIDC_ENDCAPABILITY; ++i) {
+                if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Capa_GetValue(m_opCam.hIdxTUCam, i, ref nVal)) {
                     Console.WriteLine("0x{0:X2}.{1} The current value is {2}", i, lstCapa[i].ToString(), nVal);
                 }
             }
         }
 
-        static void Main(string[] args)
-        {
-            if (TUCAMRET.TUCAMRET_SUCCESS == InitApi())
-            {
-                if (TUCAMRET.TUCAMRET_SUCCESS == OpenCamera(0))
-                {
+        static void Main(string[] args) {
+            if (TUCAMRET.TUCAMRET_SUCCESS == InitApi()) {
+                if (TUCAMRET.TUCAMRET_SUCCESS == OpenCamera(0)) {
                     Console.WriteLine("Open the camera success");
 
                     Console.WriteLine();
@@ -256,8 +229,7 @@ namespace C.NET03_capa_list
 
                     CloseCamera();
                 }
-                else
-                {
+                else {
                     Console.WriteLine("Open the camera failure");
                 }
 

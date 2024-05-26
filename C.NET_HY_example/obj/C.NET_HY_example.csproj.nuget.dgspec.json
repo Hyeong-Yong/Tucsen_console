@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\C.NET_HY_example.csproj": {}
+    "C:\\Dev\\C#\\Tucsen_console\\C.NET_HY_example\\C.NET_HY_example.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\C.NET_HY_example.csproj": {
+    "C:\\Dev\\C#\\Tucsen_console\\C.NET_HY_example\\C.NET_HY_example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\C.NET_HY_example.csproj",
+        "projectUniqueName": "C:\\Dev\\C#\\Tucsen_console\\C.NET_HY_example\\C.NET_HY_example.csproj",
         "projectName": "C.NET_HY_example",
-        "projectPath": "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\C.NET_HY_example.csproj",
-        "packagesPath": "C:\\Users\\hwang\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Tucsen\\samples code\\console\\C#\\C.NET_HY_example\\obj\\",
+        "projectPath": "C:\\Dev\\C#\\Tucsen_console\\C.NET_HY_example\\C.NET_HY_example.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\C#\\Tucsen_console\\C.NET_HY_example\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hwang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -35,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

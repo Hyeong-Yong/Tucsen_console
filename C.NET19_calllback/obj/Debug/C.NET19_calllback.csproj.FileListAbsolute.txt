@@ -6,3 +6,10 @@ C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\obj\Debug\C.NET19_calllb
 C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\obj\Debug\C.NET19_calllback.csproj.CoreCompileInputs.cache
 C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\obj\Debug\C.NET19_calllback.exe
 C:\Dev\Tucsen\samples code\console\C#\C.NET19_calllback\obj\Debug\C.NET19_calllback.pdb
+C:\Dev\C#\Tucsen_console\C.NET19_calllback\bin\Debug\C.NET19_calllback.exe.config
+C:\Dev\C#\Tucsen_console\C.NET19_calllback\bin\Debug\C.NET19_calllback.exe
+C:\Dev\C#\Tucsen_console\C.NET19_calllback\bin\Debug\C.NET19_calllback.pdb
+C:\Dev\C#\Tucsen_console\C.NET19_calllback\obj\Debug\C.NET19_calllback.csproj.AssemblyReference.cache
+C:\Dev\C#\Tucsen_console\C.NET19_calllback\obj\Debug\C.NET19_calllback.csproj.CoreCompileInputs.cache
+C:\Dev\C#\Tucsen_console\C.NET19_calllback\obj\Debug\C.NET19_calllback.exe
+C:\Dev\C#\Tucsen_console\C.NET19_calllback\obj\Debug\C.NET19_calllback.pdb

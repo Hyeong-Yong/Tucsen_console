@@ -4,3 +4,9 @@ C:\Dev\Tucsen\samples code\console\C#\C.NET02_get_infoex\obj\Debug\C.NET02_get_i
 C:\Dev\Tucsen\samples code\console\C#\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.csproj.CoreCompileInputs.cache
 C:\Dev\Tucsen\samples code\console\C#\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.exe
 C:\Dev\Tucsen\samples code\console\C#\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.pdb
+C:\Dev\C#\Tucsen_console\bin\Debug\C.NET02_get_infoex.exe
+C:\Dev\C#\Tucsen_console\bin\Debug\C.NET02_get_infoex.pdb
+C:\Dev\C#\Tucsen_console\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.csproj.AssemblyReference.cache
+C:\Dev\C#\Tucsen_console\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.csproj.CoreCompileInputs.cache
+C:\Dev\C#\Tucsen_console\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.exe
+C:\Dev\C#\Tucsen_console\C.NET02_get_infoex\obj\Debug\C.NET02_get_infoex.pdb
