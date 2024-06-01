@@ -72,6 +72,7 @@ namespace C.NET10_trigger_software
         /* Do software trigger */
         static void DoSoftwareTrigger()
         {
+            Thread.Sleep(100);
             int nTimes = 10;
 
             m_frame.pBuffer = IntPtr.Zero;
@@ -90,9 +91,10 @@ namespace C.NET10_trigger_software
 
             if (TUCAMRET.TUCAMRET_SUCCESS == TUCamAPI.TUCAM_Cap_Start(m_opCam.hIdxTUCam, (uint)TUCAM_CAPTURE_MODES.TUCCM_TRIGGER_SOFTWARE))
             {
+
                 for (int i = 0; i < nTimes; ++i)
                 {
-                    Thread.Sleep(1000);
+
                     /* Send software trigger signal */
                     lRet = (long)TUCamAPI.TUCAM_Cap_DoSoftwareTrigger(m_opCam.hIdxTUCam);
 

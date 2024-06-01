@@ -4,3 +4,9 @@ C:\Dev\Tucsen\samples code\console\C#\C.NET07_save_image\obj\Debug\C.NET07_save_
 C:\Dev\Tucsen\samples code\console\C#\C.NET07_save_image\obj\Debug\C.NET07_save_image.csproj.CoreCompileInputs.cache
 C:\Dev\Tucsen\samples code\console\C#\C.NET07_save_image\obj\Debug\C.NET07_save_image.exe
 C:\Dev\Tucsen\samples code\console\C#\C.NET07_save_image\obj\Debug\C.NET07_save_image.pdb
+C:\Dev\C#\Tucsen_console\bin\Debug\C.NET07_save_image.exe
+C:\Dev\C#\Tucsen_console\bin\Debug\C.NET07_save_image.pdb
+C:\Dev\C#\Tucsen_console\C.NET07_save_image\obj\Debug\C.NET07_save_image.csproj.AssemblyReference.cache
+C:\Dev\C#\Tucsen_console\C.NET07_save_image\obj\Debug\C.NET07_save_image.csproj.CoreCompileInputs.cache
+C:\Dev\C#\Tucsen_console\C.NET07_save_image\obj\Debug\C.NET07_save_image.exe
+C:\Dev\C#\Tucsen_console\C.NET07_save_image\obj\Debug\C.NET07_save_image.pdb

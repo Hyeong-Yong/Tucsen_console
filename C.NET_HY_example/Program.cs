@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.Diagnostics.Metrics;
+using System.Runtime.InteropServices;
 using TUCAMAPI;
 
 namespace C.NET_HY_example {
@@ -246,14 +247,19 @@ namespace C.NET_HY_example {
         static void DoSoftwareTrigger() {
             int nTimes = 10;
 
+
             m_frame.pBuffer = IntPtr.Zero;
-            m_frame.ucFormatGet = (byte)TUFRM_FORMATS.TUFRM_FMT_USUAl;
-            m_frame.uiRsdSize = 1;
+            m_frame.ucFormatGet = (byte)TUFRM_FORMATS.TUFRM_FMT_RAW; // Data format of frame
+            m_frame.uiRsdSize = 1; // Number of frames captured at a time
 
             TUCamAPI.TUCAM_Cap_GetTrigger(m_opCam.hIdxTUCam, ref m_tgr);
-            m_tgr.nTgrMode = (int)TUCAM_CAPTURE_MODES.TUCCM_TRIGGER_SOFTWARE;
-            m_tgr.nFrames = 1;
-            m_tgr.nBufFrames = 1;
+            m_tgr.nTgrMode = (int)TUCAM_CAPTURE_MODES.TUCCM_TRIGGER_SOFTWARE; // trigger mode
+            //m_tgr.nExpMode = (int)TUCAM_TRIGGER_EXP.TUCTE_EXPTM;
+            //m_tgr.nEdgeMode = (int)TUCAM_TRIGGER_EDGE.TUCTD_RISING;
+            m_tgr.nFrames = 1; // The number of output frames triggered at one time
+            m_tgr.nBufFrames = 1; // The number of frames in the buffer
+            // m_tgr.nDelayTm = 10; // Trigger delay time in milliseconds
+
             TUCamAPI.TUCAM_Cap_SetTrigger(m_opCam.hIdxTUCam, m_tgr);
 
             TUCamAPI.TUCAM_Buf_Alloc(m_opCam.hIdxTUCam, ref m_frame);
@@ -264,6 +270,9 @@ namespace C.NET_HY_example {
                 for (int i = 0; i < nTimes; ++i) {
                     Thread.Sleep(100);
                     /* Send software trigger signal */
+                    
+                    //string? r = Console.ReadLine();
+
                     lRet = (long)TUCamAPI.TUCAM_Cap_DoSoftwareTrigger(m_opCam.hIdxTUCam);
 
                     if ((int)TUCAMRET.TUCAMRET_SUCCESS == lRet) {
@@ -295,7 +304,7 @@ namespace C.NET_HY_example {
 
             m_frame.pBuffer = IntPtr.Zero;
             m_frame.ucFormatGet = (byte)TUFRM_FORMATS.TUFRM_FMT_USUAl;
-            m_frame.uiRsdSize = 1;
+            m_frame.uiRsdSize = 1; // Number of frames captured at a time
 
             TUCamAPI.TUCAM_Cap_GetTrigger(m_opCam.hIdxTUCam, ref m_tgr);
             m_tgr.nTgrMode = (int)TUCAM_CAPTURE_MODES.TUCCM_TRIGGER_STANDARD;
@@ -381,7 +390,7 @@ namespace C.NET_HY_example {
                     SetConfig(Cf.FanGear, FanGear.Slow);
                     SetConfig(Cf.CMS, CMS.LowNoise);
                     SetConfig(Cf.ExposureTime, 100);
-                    SetConfig(Cf.ROI, RoiMode.P600);
+                    SetConfig(Cf.ROI, RoiMode.P3000);
 
                     Console.WriteLine(); Console.WriteLine();
                     GetConfig(Cf.ROI);
@@ -394,6 +403,7 @@ namespace C.NET_HY_example {
                     AverageValue();
                     Console.WriteLine();
 
+                    DoSoftwareTrigger();
 
                     CloseCamera();
                 }
